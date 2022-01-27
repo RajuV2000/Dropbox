@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dropbox | Signup</title>
+</head>
+
+<link href="css/register.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/register.js"></script>
+
+<header>
+    <div class="Try">
+        <button>
+                <a href="https://www.dropbox.com" style="text-decoration: none;"><b>Try Dropbox Business</b></a>
+            </button>
+    </div>
+
+    <img src="img/dropbox_logo.png" alt="Dropbox logo" width="300" height="60">
+
+    <div class="DownloadApp">
+        <a href="https://www.dropbox.com/install-linux">Download the app</a>
+    </div>
+</header>
+
+<body class="Center">
+    <form>
+        <table>
+            <div class="Row1">
+                <tr>
+                    <td>
+                        <div class="Create">
+                            <label>Create an account</label><br><br>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="Or">
+                            <label>or</label><br><br>
+                        </div>
+                    </td>
+
+                    <td>
+                        <a href="index.html" style="text-decoration: none;">Login</a><br><br>
+                    </td>
+
+                </tr>
+            </div>
+        </table>
+
+        <table>
+            <form>
+                <div class="form">
+                    <label>Name</label><br>
+                    <input id="name" type="text" name="name" style="width: 280px;"><br>
+
+                    <label>Last Name</label><br>
+                    <input id="lastName" type="text" name="lastName" style="width: 280px;"><br>
+
+                    <label>Email</label><br>
+                    <input id="email" type="email" name="email" style="width: 280px;"><br>
+
+                    <label>Password</label><br>
+                    <input id="password" type="password" name="password" style="width: 280px;"><br>
+
+
+                </div>
+            </form>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="Rem">
+                        <input type="checkbox" id="chk" name="chkbox">
+                    </div>
+                </td>
+
+                <td>
+                    <label style="font-size: smaller;">I agree to the <a href="https://google.com">Dropbox Terms</a></label><br>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <div class="CreateA">
+
+                    <p id="resp"></p>
+                    <input type="button" onclick="validateRegister()" value="Create Account" style="width: 290px;">
+                </div>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <div class="SignupG">
+
+                    <button>
+                        <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type=offline&client_id=801668726815.apps.googleusercontent.com&include_granted_scopes=true&prompt=consent%20select_account&redirect_uri=https%3A%2F%2Fwww.dropbox.com%2Fgoogle%2Fauthcallback&response_type=code&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcontacts.readonly&state=AD26393jZxDKX-5W6pqSEdDlf04MqP9eW0rACoeKNxXPwNw2Mr4zcNUKyfk3uMqFtzt3luzJfBqWWHULPlEgbC62a8ajsiQUJehIkcaw1wfSsacIbpRwDZytrQPwhloqHTLSG8hECVLGUOBGElR9CUJzvIAcy3UYP4hPvNqA0Pez6sKD65uIXhYnOGNIHv_jK39fcW61giNG_UAY8Bn7kU8-9Z5O3PW4B1EEgtE-BIeNv02h-Fdb3BL3Mt9H3JWP0HOanaY-eXcnWg718ZkJWHXMLZaRsdFbXRkzPIc5cFCkX8kDU58-pDwldX4GAhkmQ0-4YEueeHsZ-XzUW4dWGzBh_X0NQiL2VfMYGrpyMRLjsCFoTj4tQBtgDnMv0UmpKkk&flowName=GeneralOAuthFlow" style="text-decoration: none; color: white;">Sign up with Google</a><br>
+                    </button>
+                </div>
+            </tr>
+        </table>
+    </form>
+</body>
+
+<footer>
+    CopyRight @All Rights are Reserved
+</footer>
+
+</html>

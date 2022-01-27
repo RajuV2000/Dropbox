@@ -1,0 +1,166 @@
+header{
+	position:absolute;
+	width : 98%;
+	height: 10%;
+	top: 0;
+    margin-top: 1%;
+    border: solid;
+    border-color: white;
+    border-width: 0.0003px;
+    background-color: white;
+	}
+	.upgrade_button{
+	padding-left: 60px;
+	}
+	
+	.dropbox_logo img{
+    margin-left: 30px;
+	width: 100px;
+	height: 20px;
+	}
+	
+	footer{
+	position: fixed;
+	width:100%;
+	bottom: 10px;
+
+    border: solid;
+    border-color: rgba(248, 250, 250, 0.829);
+    background-color: rgba(248, 250, 250, 0.829);
+	}
+
+    .copyright {
+        padding-left: 990px;
+    }
+
+    .Home a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .Home:hover {
+    height: 100px;
+    
+    }
+
+    .all_files a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .recents a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .recents :hover{
+        height: 100px;
+    }
+
+    .starred a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .shared a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .photos a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .file_req a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .deleted_files a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+
+        width: 100px;
+        height: 100px;
+        background: white;
+        transition: height 2s;
+    }
+
+    .logout a{
+        padding-left: 450px;
+        color: blue;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .home_img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .welcome h1 {
+ 
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    }
+
+    @keyframes example {
+    from {top: 0px;}
+    to {top: 50px;}
+    }
+
+    
+
+    body{
+        margin-top: 150px;
+        text-align: center;
+    }

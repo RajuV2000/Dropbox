@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+</head>
+<link href="css/main.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/login.js"></script>
+
+<body>
+    <header>
+        <div class="Try">
+            <button>
+                <a href="https://www.dropbox.com" style="text-decoration: none;"><b>Try Dropbox Business</b></a>
+            </button>
+        </div>
+
+        <img src="img/dropbox_logo.png" alt="Dropbox logo" width="300" height="60">
+
+        <div class="DownloadApp">
+            <a href="register.html">Register</a>
+        </div>
+    </header>
+
+
+    <form class="formm">
+
+        <h2><b>Login</b></h2><br>
+
+
+        <input id="email" type="email" name="email" placeholder="Enter email" style="width: 250px; height: 20px;"><br>
+
+
+        <br> <input id="password" type="password" name="password" placeholder="Enter password" style="width: 250px; height: 20px;"><br>
+
+        <p><a href="" style="font-size: small; text-decoration: none; color: blue;">forgot password?</a></p>
+
+        <p id="resp"></p>
+        <table>
+            <tr>
+                <td>
+                    <input type="button" onclick="validateLogin()" value="Login">
+                </td>
+
+                <td class="reset">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <footer>
+        CopyRight @All Rights are Reserved
+    </footer>
+
+</body>
+
+</html>
